@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
-}
+html,body{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar-wraper{
+   background-image: url(./assets/images/Banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 4rem;
+ 
+   align-items: center;
+} 
+.navbar-wraper h1{
+  padding-left: 6rem;
+  padding-top: 5rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+}
+.navbar-wraper p{
+padding: 0rem 6rem;
+align-items: center;
+font-size: 1.4rem;
+}
+.getdetails{
+  background-color: #890606;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  padding: .2rem 1.3rem;
+  margin-left: 6rem;
+}
+.navbar-toggler{
+  background-color: #e74c3c;
+  border: none;
+  padding: .5rem .3rem;
+  outline: none;
+}
+.navbar-toggler span{
+  display: block;
+  width: 25px;
+  height: 2px;
+  border: 2px;
+  background: #fff;
+}
+.navbar-toggler span + span{
+  margin-top: 6px;
+  width: 18px;
+  margin-left: 4px;
+}
+.navbar-toggler span + span + span{
+  width: 10px;
+  margin-left: 10px;
+ 
+} 
+/* Header css start */
+.headers{
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  height: auto;
+}
+.headers h2{
+  color: #045089;
+  padding: 1rem 0rem;
 }
 
-.App-link {
-  color: #61dafb;
+.slidesimg{
+ position: relative;
+ text-align: center;
+ color: rgb(8, 8, 8);
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+ 
+}
+.pcentered {
+ 
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Compaints css start  */
+.complaint-wraper h1{
+  color: #045089;
+}
+
+/* feature css feature */
+.feature{
+  background-color: #F5F5F5;
+  margin-top: 3rem;
+}
+.feature h1{
+  color: #045089;
+}
+.feature p{
+  font-size: 20px;
+}
+
+
+/* Result css start */
+
+.Results{
+  background-image: url(./assets/images/Results.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  color: #fff;
+}
+ .Results span span{
+  margin-left: .8rem;
+} 
+
+footer {
+  background-image: url(./assets/images/Group\ 308.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: auto;
+ position: relative;
+ 
+}
+footer h2{
+  color: #fff;
+}
+footer form{
+  /* padding: 0rem 3rem; */
+}
+footer .names{
+  width: 100%;
+  padding: .5rem 0rem;
+  
+
+}
+footer button{
+  background-color: #B51414;
+  border: none;
+  color: #fff;
+  padding: .2rem 4rem;
+}
+
+
+/* bottom footer css start  */
+.bottom-footer{
+  background-color: #B51414;
+  width: 100%;
+  height: auto;
+  
+}
+.bottom-footer img{
+  padding: 2rem 1rem;
+}
+.bottom-footer h5{
+  color: #fff;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
 }
