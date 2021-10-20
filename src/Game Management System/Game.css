@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+html,
+body {
+
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.game-wraper {
+  background-image: url(../assets/images/Union.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  text-align: center;
+}
+.nav-item span{
+  background-color: #fff;
+  border-right: none;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+
+}
+.nav-item input{
+  border-left: none;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+} 
+.game-wraper h1{
+  color: #fff;
+  font-family: 'Boogaloo';
+  font-size: 3rem;
+}
+.game-wraper p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.signup{
+  border: 1px solid #fff;
+  background-color: #ff6c4e;
+  color: #fff;
+  border-radius: 2rem;
+  padding: .2rem 2rem;
+}
+.bannersimages img{
+  margin-top: 5rem;
+}
+
+
+/* header part css start  */
+ .headers-wraper{
+   background-image: url(../assets/images/bg2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: auto;
+ }
+ .img-wraper {
+   position: relative;
+   color: white;
+ }
+ 
+.top-left {
+    position: absolute;
+    top: 33px;
+    left: 33px;
+    font-size: 18px
+
+}
+ .img-wraper1 {
+   position: relative;
+   color: white;
+ }
+ .top-right{
+  position: absolute;
+  top: 39px;
+  left: 56px;
+  font-size: 18px
+   
+ }
+
+ .img-wraper2 {
+   position: relative;
+   color: white;
+ }
+.top-rights{
+ position: absolute;
+ top: 28px;
+ left: 22px;
+ font-size: 17px;
+}
+.top-lefts{
+   position: absolute;
+   top: 66px;
+   left: 50px;
+   font-size: 18px;
+}
+.top-left3{
+   position: absolute;
+   top: 47px;
+   left: 38px;
+   font-size: 18px;
+}
+
+
+/* fun learn css start */
+
+.fun-wraper{
+  background-color: rgba(255, 242, 59, 0.863);
+  height: auto;
+  padding: 2rem 0rem;
+}
+.fun-wraper h2{
+  color: #FF6C4E;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+  
+
+/* Make learning css start */
+.screen img{
+  border-radius: 2rem;
+  box-shadow: 0px 2px 14px -2px rgba(167, 164, 164, 0.75);
+  -webkit-box-shadow: 0px 2px 14px -2px rgba(168, 164, 164, 0.75);
+  -moz-box-shadow: 0px 2px 14px -2px rgba(167, 165, 165, 0.75);
+}
+
+.screen h1{
+   color: #FF6C4E;
+   text-shadow: 2px 2px 2px #534f4f;
+}
+
+/* footer css start */
+.gamefooter {
+ background-color: #FF6C4E;
+  height: auto;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.gamefooter h2 {
+  color: #fff;
+}
+
+
+.gamefooter .names {
+  width: 100%;
+  padding: .5rem 1rem;
+
+
+}
+
+.gamefooter button {
+  background-color: #E02500;
+  border: none;
+  color: #fff;
+  padding: .2rem 4rem;
+}
+
+.gamefooter .number {
+  color: #fff;
+  margin-left: 3rem;
+}
+.gamefooter label{
+  margin-left: 3rem;
+}
+
+/* game bottom footer  */
+
+.gamebottomfooter {
+  background-color: #E02500;
+  width: 100%;
+  height: auto;
+
+}
+
+.gamebottomfooter img {
+ 
+  padding: 1rem 1rem;
+}
+
+.gamebottomfooter h5 {
+  color: #fff;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+.gamebottomfooter span{
+      margin-left: -1.5rem;
+}

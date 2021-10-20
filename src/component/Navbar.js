@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/neologicxlogo1.png";
 const Navbar = () => {
   return (
@@ -29,19 +30,19 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" to="/Home">
+                <Link className="nav-link" to="/navbars">
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" to="/about">
+                <Link className="nav-link" to="/navbare">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" to="/contact">
+                <Link className="nav-link" to="/nav">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

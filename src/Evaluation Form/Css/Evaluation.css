@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html,
+body {
+
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* header part css  */
+
+.headerpart {
+    background-color: #f5f5f5;
+    height: auto;
+    align-items: center;
+    padding: 3rem 0rem;
+    padding-bottom: 7rem;
+
+}
+
+.firstbox {
+    background-color: rgb(0, 0, 71);
+    height: 23rem;
+    width: 100%;
+    max-width: 61%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    position: absolute;
+}
+
+.firstbox img {
+    margin-top: 2.5rem;
+    left: 19.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.secoundbox {
+    background-color: #EA4D06;
+    color: #fff;
+    height: auto;
+    max-width: 60%;
+    width: 100%;
+    padding-top: 6.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+    padding-bottom: 4rem;
+
+
+}
+
+.secoundbox h3 {
+    font-weight: 700;
+}
+
+.secoundbox p {
+    max-width: 60%;
+    width: 100%;
+}
+
+.secoundbox button {
+    padding: .3rem 2.3rem;
+    border: none;
+    color: #EA4D06;
+    text-transform: uppercase;
+}
+
+/* card css start   */
+.outerdiv {
+    background-color: #EA4D06;
+    width: 100%;
+    max-width: 25%;
+    height: 15rem;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.firstdiv {
+   
+    background-color: #EA4D06;
+    top: 0;
+    left: 0;
+    max-width: 25.5%;
+    width: 100%;
+    position: sticky;
+}
+
+/* .lastdiv{
+ background-color: rgb(255, 99, 42);
+ width: 100%;
+ max-width: 25.5%;
+ height: 19rem;
+ right: 0;
+ bottom: 29%;
+ position: sticky;
+ z-index: -1;
+    
+} */
+.cards {
+    padding-top: 4rem;
+}
+
+.cards .card {
+    border: none;
+    box-shadow: 0px 1px 10px -1px rgba(110, 109, 109, 0.75);
+    -webkit-box-shadow: 0px 1px 10px -1px rgba(122, 120, 120, 0.75);
+    -moz-box-shadow: 0px 1px 10px -1px rgba(131, 128, 128, 0.75);
+}
+
+.cards .card h6 {
+    color: #EA4D06;
+}
+
+.cards .card h2 {
+    font-weight: bolder;
+
+    font-size: 2.3rem;
+}
+
+.colle {
+    margin: 3rem;
+    color: #EA4D06;
+}
+
+/* How can use it css start */
+.uses {
+    background-color: #f5f5f5;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.uses h3 {
+    padding: 2rem 0rem;
+    font-weight: 600;
+}
+
+/* footer css Start */
+
+.efooter {
+    background-color: #22264C;
+    height: auto;
+    padding: 3rem 0rem;
+}
+
+.efsubmit {
+    background-color: #EA4D06;
+    color: #fff;
+}

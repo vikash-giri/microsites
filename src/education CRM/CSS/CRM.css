@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html,
+body {
+
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Header Css Start */
+.getdetail{
+    padding: .3rem 2rem;
+    background-color: #f0ae00;
+    border-radius: 3rem;
+    border: none;
+    font-family: 'Comfortaa';
+    font-weight: 600;
+}
+
+.eduCrm-sec{
+    background-color: #F5F5F5;
+   padding: 2.3rem 0rem;
+    margin-top: 5rem;
+
+}
+.eduCrm-sec h2{
+    text-align: center;
+    padding-bottom: 1rem;
+ 
+}
+.eduCrm-sec p{
+  padding: .4rem 0rem;
+}
+
+  /* education crm Css start */
+
+  .eduction-crm {
+      background-color: #0B1320;
+      /* height: 200px; */
+      color: #fff;
+      padding-top: 1.5rem;
+  }
+  .eduction-crm h2 {
+      padding-top: .5rem;
+  }
+  .eduction-crm img{
+          width: 25%;
+  }
+  .eduction-crm h4{
+      padding-top: 1rem ;
+  }
+  .rowsecound {
+      padding: 3rem 0rem;
+  }
+  /* Crm paltform css Start */
+  .main-herosection-images {
+      position: relative;
+            margin-top: 6rem;
+  }
+  .main-herosection-images img {
+        box-shadow: 0.1rem 0 0.8rem rgb(0 0 0 / 25%);
+      /* height: 75%;
+      margin-top: 10rem;
+      box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+      border-radius: 1.5rem; */
+      /* position: absolute; */
+  }
+  .main-herosection-images .main-hero-img2 {
+        position: absolute;
+     
+        left: 41.2%;
+        top: -27%;
+        box-shadow: 0.1rem 0 0.8rem rgb(0 0 0 / 25%);
+        
+  }
+
+
+  /* Footer Css Start */
+  .footer {
+      background-color: #0B1320;
+      /* height: 400px; */
+      margin-top: 4rem;
+      padding: 4rem 0rem;
+  }
+  .forms{
+      background-color: #fff;
+      padding: 2rem 0rem;
+      margin: 0rem 5rem;
+      padding: 2rem 2rem;
+     
+     
+  }
+  .forms h4{
+      font-weight: 600;
+  }
+  .forms input{
+      background-color: rgb(228, 225, 225);
+      width: 100%;
+       border-radius: .2rem;
+      height: 2.2rem;
+      border: none;
+      padding: 1.5rem .8rem;
+  }
+ 
+  .forms textarea{
+      background-color: rgb(228, 225, 225);
+       padding: 1rem .8rem;
+      width: 100%;
+      border-radius: .2rem;
+      border: none;
+  }
+
+  .bottomfooter{
+      text-align: center;
+      }
+  .bottomfooter img{
+   padding-left: .9rem;
+  
+      
+  }
+  .bottomfooter h5{
+      padding-top: 2rem;
+  }
+  .bottomfooter h5 img{
+      margin-left: -10px;
+  }

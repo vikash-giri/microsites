@@ -7,9 +7,9 @@ const Feature = () => {
       <div className="container-fluid feature">
         <div className="container">
           <div className="row">
-            <h1 className="text-center py-4">Feature</h1>
+            <h1 className="text-center pb-2">Feature</h1>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3">
+              <div class="card text-dark bg-light mb-3 ">
                 <div class="card-header">
                   <h5>Dedicated Portal</h5>
                 </div>
@@ -29,7 +29,7 @@ const Feature = () => {
                 <div class="card-body teams">
                   <p class="card-text  ">
                     Each issue gets resolved by respective department and
-                    reverted to customer.
+                    reverted to customer customer.
                   </p>
                 </div>
               </div>

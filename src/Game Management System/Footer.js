@@ -1,12 +1,12 @@
 import React from 'react'
-import facebook from "../assets/images/Facebook.png"
+import facebook from "../assets/images/Facebook.png";
 import insta from "../assets/images/Instagram.png";
 import linked from "../assets/images/LinkedIn.png";
 import footerlogo from "../assets/images/neologicx logo footer.png";
 const Footer = () => {
     return (
       <>
-        <footer>
+        <div className="container-fluid gamefooter">
           <div className="container">
             <div className="row py-5">
               <h2 className="text-center pb-3">Get in Touch</h2>
@@ -20,7 +20,8 @@ const Footer = () => {
                         id="exampleInputEmail1"
                         aria-describedby="emailHelp"
                         placeholder="Name"
-                     required />
+                        required
+                      />
                     </div>
                     <div className="form-group">
                       <input
@@ -29,7 +30,8 @@ const Footer = () => {
                         id="exampleInputEmail1"
                         aria-describedby="emailHelp"
                         placeholder="Phone"
-                      required/>
+                        required
+                      />
                     </div>
                     <div className="form-group">
                       <input
@@ -38,7 +40,8 @@ const Footer = () => {
                         id="exampleInputEmail1"
                         aria-describedby="emailHelp"
                         placeholder="Email"
-                      required/>
+                        required
+                      />
                     </div>
                     <div className="form-group">
                       <textarea
@@ -46,7 +49,8 @@ const Footer = () => {
                         id="exampleFormControlTextarea1"
                         rows="3"
                         placeholder="Massage"
-                      required ></textarea>
+                        required
+                      ></textarea>
                     </div>
                     <button type="button" className="submit ">
                       Submit
@@ -65,9 +69,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </footer>
-        <div className="container-fluid bottom-footer">
-          <div className="container text-center">
+        </div>
+       
+         <div className="container-fluid gamebottomfooter">
+          <div className="container text-center pt-5">
             <img src={facebook} className="img-fluid" alt="facebook" />
             <img src={insta} className="img-fluid" alt="facebook" />
             <img src={linked} className="img-fluid" alt="facebook" />
