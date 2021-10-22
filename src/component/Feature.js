@@ -9,8 +9,8 @@ const Feature = () => {
           <div className="row">
             <h1 className="text-center pb-2">Feature</h1>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3 ">
-                <div class="card-header">
+              <div className="card text-dark bg-light pb-3">
+                <div className="card-header ">
                   <h5>Dedicated Portal</h5>
                 </div>
                 <div class="card-body">
@@ -22,7 +22,7 @@ const Feature = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3">
+              <div class="card text-dark bg-light pb-3">
                 <div class="card-header">
                   <h5>Team Productivity</h5>
                 </div>
@@ -35,7 +35,7 @@ const Feature = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3">
+              <div class="card text-dark bg-light pb-3">
                 <div class="card-header">
                   <h5>Avert customer churn</h5>
                 </div>
@@ -48,7 +48,7 @@ const Feature = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3">
+              <div class="card text-dark bg-light pb-3">
                 <div class="card-header">
                   <h5>Prevent Wildfire</h5>
                 </div>
@@ -61,7 +61,7 @@ const Feature = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3 ">
+              <div class="card text-dark bg-light pb-3">
                 <div class="card-header">
                   <h5>Customer Feedback</h5>
                 </div>
@@ -74,7 +74,7 @@ const Feature = () => {
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-xxl-4">
-              <div class="card text-dark bg-light mb-3">
+              <div class="card text-dark bg-light pb-3">
                 <div class="card-header">
                   <h5>Accurate Analysis</h5>
                 </div>

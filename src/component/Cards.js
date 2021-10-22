@@ -63,7 +63,7 @@ export default class CustomArrows extends Component {
     return (
       <div className="container-fluid headers">
         <div className="container">
-          <h3 className="py-4">Thanking Our Customers For Bringing it Our Notice</h3>
+          <h3 className="py-5">Thanking Our Customers For Bringing it Our Notice</h3>
           <Slider {...settings}>
             <div className="col-12 slidesimg">
               <img src={slide} className="img-fluid" alt="slider-img" />

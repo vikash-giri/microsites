@@ -116,15 +116,16 @@ body {
 
   .bottomfooter{
       text-align: center;
+      
       }
   .bottomfooter img{
    padding-left: .9rem;
   
       
   }
-  .bottomfooter h5{
+  .bottomfooter h4{
       padding-top: 2rem;
   }
-  .bottomfooter h5 img{
+  .bottomfooter h4 img{
       margin-left: -10px;
   }

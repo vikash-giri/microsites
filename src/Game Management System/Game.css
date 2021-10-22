@@ -13,9 +13,9 @@ body {
 }
 
 .game-wraper {
-  background-image: url(../assets/images/Union.png);
+  background-image: url(../assets/images/Unionl.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   height: auto;
   text-align: center;
 }
@@ -51,16 +51,19 @@ body {
   padding: .2rem 2rem;
 }
 .bannersimages img{
-  margin-top: 5rem;
+  margin-top: 3.7rem;
 }
-
+.searchbar{
+  opacity: .7;
+}
 
 /* header part css start  */
  .headers-wraper{
-   background-image: url(../assets/images/bg2.png);
+   background-image: url(../assets/images/Group.png);
    background-repeat: no-repeat;
    background-size: cover;
    height: auto;
+   margin-top: 2rem;
  }
  .img-wraper {
    position: relative;
@@ -127,7 +130,7 @@ body {
 
 /* Make learning css start */
 .screen img{
-  border-radius: 2rem;
+  border-radius: 3rem;
   box-shadow: 0px 2px 14px -2px rgba(167, 164, 164, 0.75);
   -webkit-box-shadow: 0px 2px 14px -2px rgba(168, 164, 164, 0.75);
   -moz-box-shadow: 0px 2px 14px -2px rgba(167, 165, 165, 0.75);
@@ -187,7 +190,7 @@ body {
   padding: 1rem 1rem;
 }
 
-.gamebottomfooter h5 {
+.gamebottomfooter h4 {
   color: #fff;
   padding-bottom: 2rem;
   margin-bottom: 0;

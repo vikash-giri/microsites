@@ -8,6 +8,7 @@ import Feature from "./Feature";
 import Result from "./Result";
 import Footer from "./Footer";
 import Applicable from "./Applicable";
+import Applicab from './Applicab';
 const Home = () => {
     return (
       <>
@@ -18,6 +19,7 @@ const Home = () => {
         <Feature />
         <Result />
         {/* <Applicable/> */}
+        <Applicab/>
         <Footer />
       </>
     );

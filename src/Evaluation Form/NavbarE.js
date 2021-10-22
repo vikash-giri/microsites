@@ -23,7 +23,9 @@ const NavbarE = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,10 +50,10 @@ const NavbarE = () => {
           </div>
         </nav>
       </div>
-      <Header/>
-      <Card/>
-      <Whocan/>
-      <Footer/>
+      <Header />
+      <Card />
+      <Whocan />
+      <Footer />
     </>
   );
 };

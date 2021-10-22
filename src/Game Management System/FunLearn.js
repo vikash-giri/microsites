@@ -19,11 +19,10 @@ const FunLearn = () => {
               <div className="col-12 col-md-6 col-xxl-6">
                 <div className="para">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer standard dummy text ever since the 1500s, when an
-                    unknown printer
+                    Gamification in learning process increase the engagement and
+                    concentration level . A user is thoroughly engaged and
+                    doesn’t feel the usual monotony that can come with new
+                    learning.
                   </p>
                 </div>
               </div>
@@ -31,10 +30,9 @@ const FunLearn = () => {
             <div className="row justify-content-center d-flex align-items-center">
               <div className="col-12 col-md-6 col-xxl-6">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer standard
+                  Incentivise gamers with Experience points and badges , later
+                  converted to avail monetary benefits like coupons, discounts,
+                  plan, experience etc.
                 </p>
               </div>
               <div className="col-12 col-md-6 col-xxl-6">
@@ -48,10 +46,10 @@ const FunLearn = () => {
               <div className="col-12 col-md-6 col-xxl-6">
                 <div className="para">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer standard dummy text ever
+                    Lead Scoring and Evaluation provide better insights of
+                    Points, Badges, and Leaderboards. This will greatly induce
+                    them to rise on points ladder and keep them glued to game
+                    learning.
                   </p>
                 </div>
               </div>
@@ -59,10 +57,9 @@ const FunLearn = () => {
             <div className="row justify-content-center d-flex align-items-center">
               <div className="col-12 col-md-6 col-xxl-6">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when 
-                
+                  Online socialization opportunities via team quizzes and
+                  interaction improves feeling of social connectedness and peer
+                  bonding.
                 </p>
               </div>
               <div className="col-12 col-md-6 col-xxl-6">
@@ -71,8 +68,8 @@ const FunLearn = () => {
             </div>
           </div>
         </div>
-        <MakeLearn/>
-        <Footer/>
+        <MakeLearn />
+        <Footer />
       </>
     );
 }

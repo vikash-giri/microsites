@@ -67,16 +67,16 @@ const Footer = () => {
           </div>
         </footer>
         <div className="container-fluid bottom-footer">
-          <div className="container text-center">
+          <div className="container text-center pt-5">
             <img src={facebook} className="img-fluid" alt="facebook" />
             <img src={insta} className="img-fluid" alt="facebook" />
             <img src={linked} className="img-fluid" alt="facebook" />
-            <h5>
+            <h4>
               Designed & Developed by:-{" "}
               <span>
-                <img src={footerlogo} className="img-fluid" alt="footerlogo" />
+                <img src={footerlogo} className="img-fluid bmlogo" alt="footerlogo" />
               </span>
-            </h5>
+            </h4>
           </div>
         </div>
       </>

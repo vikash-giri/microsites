@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import temporary from "../assets/images/temporary-agency.png";
+
 export default class Applicable extends Component {
   render() {
     var settings = {
@@ -41,93 +42,159 @@ export default class Applicable extends Component {
       <div className="container py-4 applicable">
         <h2> Applicable industries</h2>
 
-        <Slider {...settings}>
-          <div className="col-12 ">
-            <div class="card">
-              <div class="card-body">
-                <img src={temporary} className="img-fluid" alt="flat icon" />
-                <h6 class="card-subtitle">Card subtitle</h6>
+        <header>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="inam" class="carousel slide " data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-sm-12 col-lg-4">
+                            <div
+                              class="card"
+                              style={{ width: "300px", margin: "auto" }}
+                            >
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-4">
+                            <div class="card" style={{ width: "300px" }}>
+                              <img src="images/b.jpg" class="card-img-top" />
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-4">
+                            <div class="card" style={{ width: "300px" }}>
+                              <img src="images/c.jpg" class="card-img-top" />
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-sm-12 col-lg-4">
+                            <div
+                              class="card"
+                              style={{ width: "300px", margin: "auto" }}
+                            >
+                              <img src="images/d.jpg" class="card-img-top" />
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-4">
+                            <div class="card" style={{ width: "300px" }}>
+                              <img src="images/e.jpg" class="card-img-top" />
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-lg-4">
+                            <div class="card" style={{ width: "300px" }}>
+                              <img src="images/f.jpg" class="card-img-top" />
+                              <div class="card-body">
+                                <h4 class="card-title">
+                                  Why you should use skin masks ?
+                                </h4>
+                                <p class="card-text">
+                                  Skin masks help us to make are skin fresh and
+                                  also they protect our skin from the harm rays
+                                  of sun
+                                </p>
+                                <button type="button" class="btn btn-warning">
+                                  Read More
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="#inam"
+                    class="carousel-control-prev"
+                    data-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon">
+                    
+                    </span>
+                  </a>
+                  <a
+                    href="#inam"
+                    class="carousel-control-next"
+                    data-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="card">
-              <img className="card-img-top" src="..." alt="Card image cap" />
-              <div className="card-body">
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </Slider>
+        </header>
       </div>
     );
   }

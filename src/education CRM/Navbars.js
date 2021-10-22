@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
             <a class="navbar-brand" href="#">
-              <img src={logo} className="img-fluid" alt="logo"/>
+              <img src={logo} className="img-fluid" alt="logo" />
             </a>
             <button
               class="navbar-toggler"
@@ -21,7 +21,9 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,10 +47,10 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-        <Header/>
-        <EductionCRM/>
-        <Crmplatform/>
-        <Footer/>
+        <Header />
+        <EductionCRM />
+        <Crmplatform />
+        <Footer />
       </>
     );
 }

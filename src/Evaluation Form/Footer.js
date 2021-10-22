@@ -72,13 +72,13 @@ const Footer = () => {
           <img src={facebook} className="img-fluid" alt="facebook" />
           <img src={insta} className="img-fluid" alt="facebook" />
           <img src={linked} className="img-fluid" alt="facebook" />
-          <h5>
+          <h4>
             {" "}
             Designed & Developed by:-
             <span>
               <img src={footerlogo} className="img-fluid" alt="footerlogo" />
             </span>
-          </h5>
+          </h4>
         </div>
       </>
     );

@@ -22,7 +22,9 @@ const Nav = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,7 +45,7 @@ const Nav = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <div class="input-group mb-3">
+                  <div class="input-group mb-3 searchbar">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="basic-addon1">
                         <i class="fas fa-search"></i>
@@ -73,15 +75,14 @@ const Nav = () => {
           <button type="button" className="signup">
             Sign Up
           </button>
-          <br/>
+          <br />
           <div className="bannersimages">
             <img src={banner} className="img-fluid" alt="banner" />
           </div>
         </div>
       </div>
-      <Header/>
-      <FunLearn/>
-      
+      <Header />
+      <FunLearn />
     </>
   );
 };

@@ -34,7 +34,7 @@ const CardApi = [
     heading: "6",
     title: "Increased applicant accuracy",
     description:
-      " The system alert applicants about any missed fields, which they must complete in order to submit their application and reduces   error too.",
+      " The system alert applicants about any missed fields, which they must complete in order to submit their application and reduces  error too.",
   },
   {
     heading: "7",
