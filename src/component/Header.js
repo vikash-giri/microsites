@@ -112,10 +112,10 @@ const Header = () => {
 					
 				</div>
 				<a href="#inam" class="carousel-control-prev" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
+					<span class="carousel-control-prev-icon">prevArrow</span>
 				</a>
 				<a href="#inam" class="carousel-control-next" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
+					<span class="carousel-control-next-icon">next</span>
 				</a>
 				
 			</div>

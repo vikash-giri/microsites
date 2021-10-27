@@ -30,17 +30,17 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link className="nav-link" to="/navbars">
+                <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/navbare">
-                  About Us
+                <Link className="nav-link" to="/Feature">
+                  Feature
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/nav">
+                <Link className="nav-link" to="/Contact">
                   Contact Us
                 </Link>
               </li>
@@ -49,12 +49,14 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <h1>Complaint Management <br/> system</h1>
+      <h1>
+        Complaint Management <br /> system
+      </h1>
       <p>
-       Software program to address customers'inquiries<br/>
-       Manage  Complaint and deliver consistent support <br/>
+        Software program to address customers'inquiries
+        <br />
+        Manage Complaint and deliver consistent support <br />
         in prompt and professional manner timely
-
       </p>
       <button className="getdetails">Get Details</button>
     </div>

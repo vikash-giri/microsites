@@ -1,10 +1,13 @@
 import React from "react"
 import './App.css';
 import { Route, Switch } from "react-router-dom";
-import Navbars from "./education CRM/Navbars";
-import NavbarE  from "./Evaluation Form/NavbarE"
+import EducationCRM from "./education CRM/Education CRM";
+import Feature from "./component/Feature";
 import Home from "./component/Home";
-import Nav from "./Game Management System/Nav";
+
+import EvaluationForm from "./Evaluation Form/Evaluation Form";
+import Contact from "./component/Contact";
+import GameManagementSystem from "./Game Management System/Game Management System";
 function App() {
   return (
     <>
@@ -12,14 +15,24 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/navbars">
+        {/* <Route path="/navbars">
           <Navbars />
+        </Route> */}
+        <Route path="/Feature">
+          <Feature />{" "}
         </Route>
-        <Route path="/navbare">
-          <NavbarE />{" "}
+        <Route path="/Contact">
+          <Contact />
         </Route>
-        <Route path="/nav">
-          <Nav />
+        <Route path="/Education CRM">
+          <EducationCRM />
+        </Route>
+
+        <Route path="/Evaluation Form">
+          <EvaluationForm />
+        </Route>
+        <Route path="/Game Management System">
+          <GameManagementSystem/>
         </Route>
       </Switch>
     </>

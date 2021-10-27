@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 html,body{
 
   top: 0;
@@ -22,10 +22,7 @@ html,body{
   padding-left: 6rem;
   padding-top: 5rem;
   align-items: center;
-  font-weight: bolder;
   opacity: .7;
- 
-  
 }
 .nav-link {
   text-decoration: none;
@@ -141,7 +138,7 @@ nav .nav-item {
 .feature .card-header ,h5{
   border-bottom: none;
   padding: 8px 0px 0px 10px;
-  font-weight: 800;
+
   background-color: rgb(206, 206, 206);
 }
 .feature h1{
@@ -181,9 +178,9 @@ nav .nav-item {
  margin-top: 10px;
  border-radius: 2rem;
   text-align: center;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 1px rgba(187, 181, 181, 0.6);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(177, 175, 175, 0.6);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(170, 169, 169, 0.6);
 }
 .applibe img{
  margin-left: auto;
@@ -200,33 +197,33 @@ nav .nav-item {
 .edu{
   width: 38%;
 }
-footer {
+.contact-wraper {
   background-image: url(./assets/images/Group\ 308.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  height: auto;
  position: relative;
 }
-footer h2{
+contact-wraper h2 {
   color: #fff;
 }
-footer form{
+.contact-wraper form {
   /* padding: 0rem 3rem; */
 }
-footer .names{
+.contact-wraper .names {
   width: 100%;
   padding: .5rem 1rem;
   
 
 }
-footer button{
+.contact-wraper button {
   background-color: #B51414;
   border: none;
   color: #fff;
   padding: .2rem 4rem;
 }
 
-footer .number{
+.contact-wraper .number {
   color: #fff;
 }
 /* bottom footer css start  */
@@ -246,4 +243,23 @@ footer .number{
   color: #fff;
   padding-bottom: 2rem;
   margin-bottom: 0;
+}
+
+@media screen and (max-width:476px){
+.navbar-wraper h1 {
+  padding-left: 0rem;
+  padding-top: 5rem;
+  align-items: center;
+  opacity: .7;
+}
+.navbar-wraper p {
+   padding: 0rem 0rem
+; 
+  align-items: center;
+  font-size: 1rem; 
+}
+.Results span span {
+  margin-left: 0rem;
+}
+  
 }

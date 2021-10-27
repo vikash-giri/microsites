@@ -7,7 +7,9 @@ import Educational from "../assets/images/Educational-institutes.png";
 import Hospitality from "../assets/images/Hospitality industry.png";
 import Banking from "../assets/images/Banking-and-Financial-sector.png";
 import Consumer from "../assets/images/Consumer-goods-companies.png";
+import ApplicabApi from '../component/ApplicabApi'
 function SampleNextArrow(props) {
+  
   const { className, style, onClick } = props;
   return (
     <div
@@ -69,55 +71,54 @@ export default class Applicab extends Component {
         return (
           <div className="container py-5">
             <h2 className="text-center"> Applicable industries </h2>
-            <Slider {...settings}>
-              <div className="col-12 ">
-                <div className="applibe">
-                  <img src={Service} className="img-fluid " alt="" />
-                  <h6>Service industry</h6>
+            <div className="row">
+              <Slider {...settings}>
+                
+                      <div className="col-12">
+                  <div className="applibe">
+                    <img src={Service} className="img-fluid " alt="" />
+                    <h6>Service industry</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img src={Technology} className="img-fluid " alt="" />
-                  <h6>Technology-industry</h6>
+                    
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Technology} className="img-fluid " alt="" />
+                    <h6>Technology-industry</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img src={Manufacturing} className="img-fluid " alt="" />
-                  <h6>Manufacturingindustry</h6>
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Manufacturing} className="img-fluid " alt="" />
+                    <h6>Manufacturingindustry</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img src={Educational} className="img-fluid edu" alt="" />
-                  <h6>Educational-institutes</h6>
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Educational} className="img-fluid edu" alt="" />
+                    <h6>Educational-institutes</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img src={Hospitality} className="img-fluid " alt="" />
-                  <h6>Hospitality industry</h6>
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Hospitality} className="img-fluid " alt="" />
+                    <h6>Hospitality industry</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img src={Banking} className="img-fluid bank " alt="" />
-                  <h6>Banking-and-Financial-sector </h6>
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Banking} className="img-fluid bank " alt="" />
+                    <h6>Banking-and-Financial-sector </h6>
+                  </div>
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="applibe">
-                  <img
-                    src={Consumer}
-                    className="img-fluid "
-                    alt=""
-                  />
-                  <h6>Consumer goods companies</h6>
+                <div className="col-12">
+                  <div className="applibe">
+                    <img src={Consumer} className="img-fluid " alt="" />
+                    <h6>Consumer goods companies</h6>
+                  </div>
                 </div>
-              </div>
-              
-            </Slider>
+              </Slider>
+            </div>
           </div>
         );
     }

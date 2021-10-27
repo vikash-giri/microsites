@@ -6,7 +6,7 @@ import Header from "./Header";
 import Complaint from "./Complaint";
 import Feature from "./Feature";
 import Result from "./Result";
-import Footer from "./Footer";
+import Footer from "./Contact.js";
 import Applicable from "./Applicable";
 import Applicab from './Applicab';
 const Home = () => {
