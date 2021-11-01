@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logo from "../assets/images/neologicxlogo1.png";
 import Crmplatform from './Crmplatform';
 import EductionCRMs from './EductionCRMs';
@@ -9,9 +10,9 @@ const EducationCRM = () => {
       <>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
-            <a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="/">
               <img src={logo} className="img-fluid" alt="logo" />
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -29,19 +30,19 @@ const EducationCRM = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/Evaluation Form">
                     Home <span class="sr-only">(current)</span>
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="#">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="#">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

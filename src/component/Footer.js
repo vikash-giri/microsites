@@ -3,11 +3,11 @@ import facebook from "../assets/images/Facebook.png"
 import insta from "../assets/images/Instagram.png";
 import linked from "../assets/images/LinkedIn.png";
 import footerlogo from "../assets/images/neologicx logo footer.png";
-import Contact from './Contact';
+
 const Footer = () => {
     return (
       <>
-    <Contact/>
+
           <div className="container-fluid bottom-footer">
             <div className="container text-center pt-5">
               <img src={facebook} className="img-fluid" alt="facebook" />

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
-import temporary from "../assets/images/temporary-agency.png";
+
 
 export default class Applicable extends Component {
   render() {

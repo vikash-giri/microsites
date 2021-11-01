@@ -4,17 +4,18 @@ import logo from "../assets/images/neologicxlogo1.png";
 import banner from "../assets/images/BannersImage.png";
 import Header from "./Header";
 import FunLearn from "./FunLearn";
+import { Link } from "react-router-dom";
 const GameManagementSystem = () => {
   return (
     <>
       <div className="container-fluid game-wraper">
-        <nav class="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg ">
           <div className="container">
-            <a class="navbar-brand" href="#">
+            <Link className="navbar-brand" to="#">
               <img src={logo} className="img-fluid" alt="logo" />
-            </a>
+            </Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -27,33 +28,33 @@ const GameManagementSystem = () => {
               <span></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">
-                    Home <span class="sr-only">(current)</span>
-                  </a>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item active">
+                  <Link className="nav-link" to="/Performance">
+                    Home <span className="sr-only">(current)</span>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
                     About Us
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <div class="input-group mb-3 searchbar">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="basic-addon1">
-                        <i class="fas fa-search"></i>
+                <li className="nav-item">
+                  <div className="input-group mb-3 searchbar">
+                    <div className="input-group-prepend">
+                      <span className="input-group-text" id="basic-addon1">
+                        <i className="fas fa-search"></i>
                       </span>
                     </div>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       aria-label="Username"
                       aria-describedby="basic-addon1"
                     />

@@ -7,14 +7,14 @@ import Educational from "../assets/images/Educational-institutes.png";
 import Hospitality from "../assets/images/Hospitality industry.png";
 import Banking from "../assets/images/Banking-and-Financial-sector.png";
 import Consumer from "../assets/images/Consumer-goods-companies.png";
-import ApplicabApi from '../component/ApplicabApi'
+
 function SampleNextArrow(props) {
   
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "gray", borderRadius: "5rem" }}
+      style={{ ...style,  background: "gray", borderRadius: "5rem", marginLeft: "1rem" }}
       onClick={onClick}
     />
   );
@@ -25,7 +25,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "gray",  borderRadius: "5rem"  }}
+      style={{ ...style, display: "block", background: "gray",  borderRadius: "5rem",  marginLeft: "1.5rem" }}
       onClick={onClick}
     />
   );
@@ -69,7 +69,7 @@ export default class Applicab extends Component {
            ],
          };
         return (
-          <div className="container py-5">
+          <div className="container  py-5">
             <h2 className="text-center"> Applicable industries </h2>
             <div className="row">
               <Slider {...settings}>

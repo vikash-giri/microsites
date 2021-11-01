@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import CardApi from './CardApi';
 const Card = () => {
 
-    const [card, setcard] = useState(CardApi)
+    const [card] = useState(CardApi)
     return (
       <>
         <div className="container-fluid">

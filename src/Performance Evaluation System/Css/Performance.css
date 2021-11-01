@@ -1,0 +1,103 @@
+.performance-wrap{
+    background-image: url(/src/assets/images/BGImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+.performance-wrap h1{
+    margin-top: 4rem;
+}
+
+/* about us page css */
+
+.abouts-wraper{
+    background-color: #F5F5F5;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.abouts-wraper h3{
+    color: #045089;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.improver-wrap h2{
+    text-align: center;
+     color: #045089;
+     padding: 2rem 0rem;
+}
+
+.performance-wrap .buttons{
+    background-color: #045089;
+    border: none;
+    border-radius: 1rem;
+  color: #fff;
+  padding: .3rem 1.5rem;
+}
+
+
+/* whia it does work css start */
+.whatit-wrap{
+     background-color: #F5F5F5;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+
+}
+.whatit-wrap h3{
+     color: #045089;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* Massage Page css start */
+.performance-massaege{
+    background-image: url(/src/assets/images/Group\ 301.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: auto;
+ position: relative;
+}
+.performance-massaege input{
+    width: 100%;
+    padding: .6rem 0rem;
+}
+
+.performance-massaege textarea{
+    width: 100%;
+}
+.performance-massaege button{
+    border: none;
+    background-color: #045089;
+     color: #fff;
+  padding: .2rem 4rem;
+}
+.performance-massaege p, h2{
+    color: #fff;
+}
+
+/* Footer csss start */
+footer{
+    background-color: #045089;   
+}
+footer img{
+  padding: 1rem 1rem;
+}
+footer h6{
+    color: #fff;
+     padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+@media screen and (max-width:768px){
+
+    .performance-wrap h1{
+    margin-top: 0rem;
+}
+.performance-wrap{
+    background-size: contain;
+}
+    
+}

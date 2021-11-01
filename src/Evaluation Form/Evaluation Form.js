@@ -5,15 +5,16 @@ import Header from "./Header";
 import Card from "./Card";
 import Whocan from "./Whocan";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 const EvaluationForm = () => {
   return (
     <>
-      <div className="container-fluid navbars">
+      <div className="">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
-            <a class="navbar-brand" href="#">
+            <Link class="navbar-brand" to="/">
               <img src={logo} className="img-fluid" alt="logo" />
-            </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -31,19 +32,19 @@ const EvaluationForm = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/Game Management System">
                     Home <span class="sr-only">(current)</span>
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="#">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

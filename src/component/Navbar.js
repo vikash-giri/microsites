@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className="container-fluid navbar-wraper">
       <nav class="navbar  navbar-expand-lg sticky-top">
         <div className="container">
-          <a className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo} className="img-fluid" alt="logo" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,7 +30,7 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/Education CRM">
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
